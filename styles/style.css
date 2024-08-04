@@ -5,3 +5,7 @@
 body{
     background-color: rgb(255, 255, 255);
 }
+
+.bg-home{
+    background-image: url(/assets/bg.png);
+}

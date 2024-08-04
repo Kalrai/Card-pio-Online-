@@ -1968,10 +1968,6 @@ video {
   background-color: rgb(24 24 27 / var(--tw-bg-opacity));
 }
 
-.bg-home {
-  background-image: url('/assets/bg.png');
-}
-
 .decoration-slice {
   -webkit-box-decoration-break: slice;
           box-decoration-break: slice;
@@ -2702,6 +2698,10 @@ body{
   background-color: rgb(255, 255, 255);
 }
 
+.bg-home{
+  background-image: url(/assets/bg.png);
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
@@ -2756,21 +2756,6 @@ body{
 
 .hover\:p-2:hover {
   padding: 0.5rem;
-}
-
-.hover\:py-4:hover {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-
-.hover\:py-2:hover {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.hover\:px-2:hover {
-  padding-left: 0.5rem;
-  padding-right: 0.5rem;
 }
 
 .hover\:font-bold:hover {

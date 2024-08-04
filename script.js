@@ -133,7 +133,7 @@ addressInput.addEventListener("click", function(event){
 checkOutBtn.addEventListener("click", function(){
 
     const isOpen = checkOpenClose()
-    if(isOpen){
+    if(!isOpen){
        
         Toastify({
             text: "Restaurante Fechado no Momento !",
