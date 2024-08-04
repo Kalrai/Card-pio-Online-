@@ -1,4 +1,5 @@
-CMD{
-npm run dev
+Projeto Criado com base no projeto https://sujeitoprogramador.com/aula-frontend/
 
-}
+
+
+Muitas alterações foram feitas, apartir do 3 commit temos alterações fortes de estilo e improvisos de JS 
